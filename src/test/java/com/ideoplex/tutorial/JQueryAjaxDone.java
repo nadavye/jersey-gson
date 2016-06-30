@@ -1,4 +1,4 @@
-/*package com.ideoplex.tutorial;
+package com.ideoplex.tutorial;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,4 +14,4 @@ public class JQueryAjaxDone implements ExpectedCondition<Boolean> {
         return (Boolean)((JavascriptExecutor) driver).executeScript(jscript);
     }
 
-}*/
+}
