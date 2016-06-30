@@ -8,6 +8,7 @@ import org.testng.Assert;
 
 public class Stepdefs {
    // private Belly belly;
+   /*
     private int waitingTime;
 
     @Given("^I have (\\d+) cukes in my belly$")
@@ -26,5 +27,41 @@ public class Stepdefs {
         String actualSound = "kuku";//belly.getSound(waitingTime);
         //actualSound = "wrong value";
         Assert.assertEquals(actualSound, expectedSound);
-    }
+    }*/
+    
+    @Given("^prospective user with email \"([^\"]*)\" pre-exists$")
+public void prospective_user_with_email_pre_exists(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^email \"([^\"]*)\" is not pre-registered$")
+public void email_is_not_pre_registered(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^user submits add \"([^\"]*)\" form$")
+public void user_submits_add_form(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^email \"([^\"]*)\" is registered$")
+public void email_is_registered(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^email \"([^\"]*)\" is pre-registered$")
+public void email_is_pre_registered(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^duplicate email \"([^\"]*)\" error is thrown$")
+public void duplicate_email_error_is_thrown(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
 }
