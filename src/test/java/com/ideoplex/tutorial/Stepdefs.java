@@ -4,8 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import org.testng.Assert;
 
 public class Stepdefs {
    // private Belly belly;
@@ -26,6 +25,6 @@ public class Stepdefs {
     public void my_belly_should_growl(String expectedSound) throws Throwable {
         String actualSound = "kuku";//belly.getSound(waitingTime);
         //actualSound = "wrong value";
-        assertThat(actualSound, is(expectedSound));
+        Assert.assertEquals(actualSound, expectedSound);
     }
 }
