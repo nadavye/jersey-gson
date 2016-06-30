@@ -34,6 +34,7 @@ public class Stepdefs {
 public void prospective_user_with_email_pre_exists(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     //throw new PendingException();
+    com.ideoplex.tutorial.User u = new com.ideoplex.tutorial.User();
 }
 
 @Given("^email \"([^\"]*)\" is not pre-registered$")
