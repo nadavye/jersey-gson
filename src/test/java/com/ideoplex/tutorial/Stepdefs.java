@@ -65,6 +65,6 @@ public void email_is_pre_registered(String arg1) throws Throwable {
 public void duplicate_email_error_is_thrown(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     //throw new PendingException();
-     Assert.assertEquals(25, 25);
+     Assert.assertEquals(250, 25);
 }
 }
