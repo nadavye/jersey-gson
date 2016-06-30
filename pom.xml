@@ -47,6 +47,12 @@
               <groupId>org.eclipse.jetty</groupId>
               <artifactId>jetty-maven-plugin</artifactId>
               <version>${jetty.version}</version>
+              <configuration>
+                 <httpConnector>
+                   <!--host>localhost</host--> 
+                   <port>9999</port>
+                 </httpConnector>
+               </configuration>
               <executions>
                 <execution>
                   <id>start-jetty</id>
