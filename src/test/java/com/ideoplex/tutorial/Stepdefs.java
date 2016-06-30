@@ -1,4 +1,4 @@
-package skeleton;
+package com.ideoplex.tutorial;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
