@@ -1,4 +1,4 @@
-package com.ideoplex.tutorial;
+/*package com.ideoplex.tutorial;
 
 
 import javax.ws.rs.core.MediaType;
@@ -93,4 +93,4 @@ public class ClientTest {
             }
         }
     }
-}
+}*/
