@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/cucumber-report.json",
                            "html:target/cucumber-report"},
-                           glue = "uk.co.automatictester.jwebfwk.glue")
+                           glue = "com.ideoplex.tutorial")
 public class CucumberTest extends AbstractTestNGCucumberTests
 {
 }
